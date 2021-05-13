@@ -26,6 +26,12 @@ function Detail() {
                     <img src="/images/group-icon.png" alt="" />
                 </GroupWatchButton>
             </Controls>
+            <SubTitle>
+                    <p>2018 + 7m + Family, Fantasy, Kids, Animation</p>
+                </SubTitle>
+                <Description>
+                    <p>A chinese mom who's sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever</p>
+                </Description>
         </Container>
     )
 };
@@ -108,6 +114,20 @@ const AddButton = styled.button`
 
 const GroupWatchButton = styled(AddButton)`
     background: rgb(0, 0, 0);
+`;
+
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+`;
+
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 `;
 
 
