@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import db from "../firebase";
 
 
-
 function Detail() {
     const { id } = useParams();
     const [ movie, setMovie ] = useState()
