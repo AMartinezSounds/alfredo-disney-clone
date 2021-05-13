@@ -44,12 +44,12 @@ const Nav = styled.nav`
     display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x:hidden;
     /* @media (max-width: 500px){}; */
 `;
 
 const Logo = styled.img`
     width: 80px;
-
 `;
 
 const NavMenu = styled.div`
@@ -57,7 +57,7 @@ const NavMenu = styled.div`
     flex: 1;
     margin-left: 25px;
     align-items: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     a{
         display: flex;
         align-items: center;
@@ -99,4 +99,4 @@ const UserImg = styled.img`
     height: 48px;
     border-radius: 50%;
     cursor: pointer;
-`
+`;

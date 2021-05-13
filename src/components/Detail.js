@@ -62,6 +62,7 @@ const ImageTitle = styled.div`
     min-height: 170px;
     width: 35vw;
     min-width: 200px;
+    margin-top: 60px;
     img {
         width: 100%;
         height: 100%;
